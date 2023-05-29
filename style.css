@@ -2,15 +2,18 @@
     box-sizing: border-box;
 }
 
+html{
+    height: -webkit-fill-available;
+  }
+
 body{
     font-family: Inter, sans-serif;
     position: relative;
     object-position: center;
-   
+    min-height: 100vh;
     background-color: #23252C;
     color: #FFFFFF;
-    
-    
+    height: -webkit-fill-available;
 }
 #root{
     display: flex;
